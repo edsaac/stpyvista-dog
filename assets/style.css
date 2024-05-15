@@ -1,0 +1,101 @@
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    top: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    top: 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    top: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+[data-testid='stSidebarNav'] > ul {
+    min-height: 66vh;
+}
+
+iframe[title='stpyvista.stpyvista']{
+    border-radius: 10px;
+}
+
+iframe[title='stpyvista.rendered']{
+    border-radius: 10px;
+}
+
+section[data-testid="stSidebar"] h1{
+    font-size: 6rem;
+}
+
+section[data-testid="stSidebar"] h2{
+    font-size: 2rem;
+}
+
+div[data-testid="stCaptionContainer"]{
+    text-align: center;
+}
+
+div[data-testid="stSidebarUserContent"]{
+    padding-top: 2rem;
+}
+
+section.main div[data-testid="stPopover"] div button{
+    font-size: 2rem;
+}
+
+section.main div[data-testid="stPopover"] div button p{
+    font-size: 2rem;
+    animation: 5s infinite normal;
+    animation-name: spinny;
+    animation-timing-function: linear;
+}
+
+section.main div[data-testid="stPopover"] div button:hover{
+    background-color: rgb(220, 20, 60, 0.2);
+}
+
+@keyframes spinny {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+section[data-testid="stSidebar"] div[data-testid="stPopover"]{
+    position: fixed; 
+    bottom: 1%; 
+    left:1%;
+}
+
+section[data-testid="stSidebar"] div[data-testid="stPopover"] div button p{
+    font-size: 1.50rem;
+}
+
+div[data-testid="stAppViewBlockContainer"]{
+    padding-top: 1rem;
+}
+
+iframe[data-testid="stIFrame"]{
+    border-radius: 4%;
+}
+
+header[data-testid="stHeader"]{
+    display: none;
+}

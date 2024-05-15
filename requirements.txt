@@ -1,0 +1,9 @@
+pip
+streamlit>=1.33.0
+numpy
+matplotlib
+panel>=1.4.1
+bokeh
+param
+pyvista
+stpyvista
