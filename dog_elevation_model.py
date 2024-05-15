@@ -78,7 +78,7 @@ def initial_config(dummy:str = "init"):
 @st.cache_resource
 def get_css(dummy:str = "css"):
     css_list = []
-    for style_sheet in ["./assets/style.css", "./assets/style_embed.css"]:
+    for style_sheet in ["./assets/style.css"]:
         with open(style_sheet) as f:
             css_list.append(f.read())
 
@@ -161,7 +161,7 @@ def main():
             """
             <style>
                 body{
-                    background-color: rgba(0,0,0,0);
+                    background-color: #efe4cf;
                 }
                 div[data-testid="stAppViewBlockContainer"]{
                     padding: 0; 
@@ -173,7 +173,7 @@ def main():
                 }
 
                 div[data-testid="stVerticalBlockBorderWrapper"]{
-                    transform: translateY(-12px);
+                    transform: translateY(1px);
                 }
             </style>
             """
