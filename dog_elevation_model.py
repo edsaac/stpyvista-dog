@@ -1,11 +1,10 @@
 import numpy as np
 import pyvista as pv
-from pyvista.plotting.utilities import start_xvfb
 from PIL import Image
 
 import streamlit as st
 from stpyvista import stpyvista
-from stpyvista.utils import is_the_app_embedded
+from stpyvista.utils import is_the_app_embedded, start_xvfb
 
 
 # Generate plotter
