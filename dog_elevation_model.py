@@ -114,7 +114,7 @@ def main():
         cols = st.columns([1, 3])
         
         with cols[0]:
-            "Generate a digital elevation model from an image's brightness."
+            "Generate a digital elevation model from thebrightness of an image."
             st.image("./assets/img/gloria_pickle.jpg")
             st.caption(
                 "Gloria from [The Coding Train](https://thecodingtrain.com/challenges/181-image-stippling)"
